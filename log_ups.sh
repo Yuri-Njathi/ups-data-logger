@@ -1,7 +1,7 @@
 #!/bin/bash
 
 UPS_NAME="eatonups@localhost"
-LOG_FILE="/home/$(whoami)/ups_metrics_all.json"
+LOG_FILE="/home/$(whoami)/ups-data-logger/ups_metrics_all.json"
 
 # Fetch raw output
 METRICS=$(upsc $UPS_NAME 2>/dev/null)
